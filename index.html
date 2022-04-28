@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="content">
+    <header id="mainTitle">
+        <h1>Dice game</h1>
+    </header>
+    <div class="title">
+        <button id="onePlayer" onclick="onePlayer()">One Player</button>
+        <h2 id="beginningMsg" style="display: none;" >Roll to begin...</h2>
+        <h2 id="winGame"></h2>
+        <h2 id="loseGame"></h2>
+    </div>
+    <div id="buttons">
+    <button id="rollBtn" style="display: none;" onclick="diceThrow()">Roll the dice</button>
+    <button id="resetBtn" style="display: none;" onclick="reset()">Reset</button>
+</div>
+<div id="diceScoreContainer">
+    <div class="scoreboard">
+        <p class="scoretext">Total score</p>
+        <div id="scoreAmount"></div>
+    </div>
+    <div id="diceImage" class="dice"></div>
+</div>
+    
+
+    
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
