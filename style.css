@@ -30,6 +30,10 @@ h1, h2 {
     justify-content: center;
 }
 
+.instructions {
+    font-size: 20px;
+}
+
 
 
 #buttons {
@@ -61,11 +65,6 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     height: 300px;
-}
-
-.dice {
-    position: relative;
-    right: 400px;
 }
 
 .scoreboard {
