@@ -34,7 +34,7 @@ const diceThrow = () => {
 
     if (score >= 20) {
         document.querySelector("#winGame").style.display = "block"
-        document.querySelector("#winGame").innerHTML = "You are a wiener!"
+        document.querySelector("#winGame").innerHTML = "You won!"
         rollBtn.disabled = true
 
     }
