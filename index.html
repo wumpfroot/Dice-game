@@ -16,14 +16,14 @@
             But if the dice shows 1, game over.</p>
     </header>
     <div class="title">
-        <button id="onePlayer" onclick="onePlayer()">One Player</button>
-        <h2 id="beginningMsg" style="display: none;" >Roll to begin...</h2>
+        <!-- <button id="onePlayer" onclick="onePlayer()">Start</button> -->
+        <h2 id="beginningMsg">Roll to begin...</h2>
         <h2 id="winGame"></h2>
         <h2 id="loseGame"></h2>
     </div>
     <div id="buttons">
-    <button id="rollBtn" style="display: none;" onclick="diceThrow()">Roll the dice</button>
-    <button id="resetBtn" style="display: none;" onclick="reset()">Reset</button>
+    <button id="rollBtn" onclick="diceThrow()">Roll the dice</button>
+    <button id="resetBtn" onclick="reset()">Reset</button>
 </div>
 <div id="diceScoreContainer">
     <div class="scoreboard">

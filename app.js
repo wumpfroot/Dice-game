@@ -51,26 +51,28 @@ const hide = () => {
     document.querySelector(".scoreboard").style.display = "none"
     }
 
-const introscreen = () => {
-    oneplayer.style.display = "block"
-    document.getElementById("beginningMsg").style.display = "none"
-    rollBtn.style.display = "none"
-    resetBtn.style.display = "none"
-    hide()
-}
 
 // Reset button function
 const reset = () => {
     score = 0
     scoreamount.textContent = " "
     rollBtn.disabled = false
-    introscreen()  
-}
-
-const onePlayer = () => {
     document.getElementById("beginningMsg").style.display = "block"
-    rollBtn.style.display = "block"
-    resetBtn.style.display = "block"
-    oneplayer.style.display = "none"
+    hide()
+    // introscreen()  
 }
 
+// const onePlayer = () => {
+//     document.getElementById("beginningMsg").style.display = "block"
+//     rollBtn.style.display = "block"
+//     resetBtn.style.display = "block"
+//     oneplayer.style.display = "none"
+// }
+
+// const introscreen = () => {
+//     oneplayer.style.display = "block"
+//     document.getElementById("beginningMsg").style.display = "none"
+//     rollBtn.style.display = "none"
+//     resetBtn.style.display = "none"
+//     hide()
+// }
