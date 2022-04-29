@@ -52,12 +52,14 @@ button{
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-    transition: 0.5s;
+    border-radius: 5px;
+    border: none;
 }
 
 button:hover {
     background-color: black;
     color: #fff;
+    transition: .2s;
 }
 
 #diceScoreContainer {
